@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest==8.3.5
+pytest-asyncio==0.24.0
+respx==0.21.1
+# Para los tests de integración con el provider del reto (provider/app.py)
+influxdb==5.3.1
