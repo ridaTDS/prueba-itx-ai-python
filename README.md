@@ -6,6 +6,9 @@ Servicio **FastAPI** (puerto `5000`) que recibe peticiones en lenguaje natural (
 ana@x.es diciendo hola"), extrae con un motor de IA una notificación estructurada
 `{"to", "message", "type"}`, la valida y la envía al provider respetando su límite de ritmo.
 
+> 📄 **Guía paso a paso** para arrancar la aplicación y ejecutar todos los tests:
+> [`docs/GUIA-ARRANQUE-Y-PRUEBAS.pdf`](./docs/GUIA-ARRANQUE-Y-PRUEBAS.pdf)
+
 ## Cómo ejecutarlo
 
 ```bash
